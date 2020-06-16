@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+.litle_blue, .big_blue{
+    background: #a3d9fb;
+    height: 100px;
+}
+.litle_blue{
+    width: 15%;
+    margin: 20px 5% 20px 20px;
+}
+.big_blue{
+    float: right;
+    width: 79%;
+    margin: -120px 1.7% 20px 0;
+}
+.dark_blue{
+    margin: 0 5% 0 20px;
+    background: #4a9deb;
+    width: 96.8%;
+    height: 200px;
+}
+div p{    
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 5em;
+    padding: 4%;
+}
+ul li{
+    margin: 20px 16px 20px 20px;
+    display: inline-block;
+    /*este es el verdadero espacio que tomaran en la web*/
+    width: 30%;
+    height: 245px;
+    /*aqui hago que los div tomen el 100% de su padre*/
+}
+.square{width: 100%;}
+#tomato{background: #e5402a;}
+#green{background: #87bb01;}
+#purple{background: #5c469b;}
+.square_number{padding: 20%;}
+
+/*dispositivos pequeños*/
+@media (min-width: 320px) and (max-width: 767px){
+    .litle_blue{
+        width: 90%;
+    }
+    .big_blue{
+        margin: -120px 7% 20px -50px;
+    }
+    .dark_blue{
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    ul li{
+        width: 90%;
+        margin: 5px 3% 2px, 2%;
+        height: 0%;
+    }
+    li div{
+        height: 250px;
+    }
+    .square_number{
+        padding: 12%;
+    }
+}
+
+/*dispositivos medianos*/
+@media (min-width: 768px) and (max-width: 1023px){
+    .litle_blue{
+        width: 18%;
+    }
+    .big_blue{
+        width: 74.5%;
+        margin: -120px 2.8%
+    }
+    .dark_blue{
+        width: 94.8%;
+        margin-bottom: 10px;
+    }
+    ul li{
+        width: 45.4%;
+        margin: 1.9%;
+    }
+    li:last-child{
+        margin-top: 2%;
+        width: 95%;
+        height: 0%;
+    }
+}
+/*dispositivos grandes*/
+@media (min-width: 1024px) and (max-width: 1199px){
+    .litle_blue{
+        width: 17%;
+    }
+    .big_blue{
+        width: 76.5%;
+        margin: -120px 2%
+    }
+    .dark_blue{
+        width: 96%;
+    }
+    ul li{
+        width: 29%;
+        margin: 20px 2%;
+    }
+}
+
+/*parte 5*/
+@media (min-width: 1200px) and (orientation: landscape){
+    body{
+        background: rgb(32, 140, 255);
+    }
+    *[class*="e"]{
+        background: white;
+    }
+    div p{
+        color: black;
+    }
+    ul li{
+        margin: 20px 1.5%;  
+    }
+}
+
+/*parte 4*/
+@media print{
+    *[class*="e"]{
+        background: black;
+    }
+}
+
+
