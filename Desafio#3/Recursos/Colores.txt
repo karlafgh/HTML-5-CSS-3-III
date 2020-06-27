@@ -1,0 +1,7 @@
+COLORES:
+
+- Verde: #3cb290
+- Azul: #52BCDB
+- Rojo: #CF433F
+- gris de fondo: #262b36
+- gris del footer: #1c1f27

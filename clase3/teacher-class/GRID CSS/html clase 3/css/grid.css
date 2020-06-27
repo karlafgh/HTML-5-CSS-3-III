@@ -1,0 +1,117 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.grid-container{
+	width: 900px;
+	height: 768px;
+	background: silver;
+	margin: 100px auto;
+	display: grid;
+	grid-template-areas: "aside aside aside aside aside"
+						"section section section header header"
+						"section section section header header"
+						"footer footer footer footer footer";
+	grid-gap: 20px;
+}
+.grid-items{
+
+}
+.grid-items:nth-child(1){
+	background: blue;
+	grid-area: header;
+}
+.grid-items:nth-child(2){
+	background: orange;
+	grid-area: section;
+}
+.grid-items:nth-child(3){
+	background: pink;
+	grid-area: aside;
+}
+.grid-items:nth-child(4){
+	background: green;
+	grid-area: footer;
+}
+
+.padre{
+	width: 900px;
+	height: 768px;
+	display: grid;
+	margin: 200px auto;
+	grid-template-areas: "area-1 area-1 area-2 area-2 area-3 area-4"
+						"area-1 area-1 area-2 area-2 area-3 area-4"
+						"area-1 area-1 area-5 area-5 area-5 area-5"
+						"area-1 area-1 area-6 area-6 area-7 area-7";
+	grid-gap: 20px;
+}
+.hijo{
+	background: coral;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hijo:nth-child(1){
+	grid-area: area-1;
+}
+.hijo:nth-child(2){
+	grid-area: area-2;
+	background: red;
+}
+.hijo:nth-child(3){
+	grid-area: area-3;
+}
+.hijo:nth-child(4){
+	grid-area: area-4;
+	background: red;
+}
+.hijo:nth-child(5){
+	grid-area: area-5;
+}
+.hijo:nth-child(6){
+	grid-area: area-6;
+}
+.hijo:nth-child(7){
+	grid-area: area-7;
+}
+
+.padre2{
+	width: 900px;
+	height: 768px;
+	display: grid;
+	grid-template-columns: 100px 100px 100px 100px 100px 100px;
+	grid-template-rows: 200px 200px 200px 200px 200px;
+}
+.hijo2{
+	background: coral;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hijo2:nth-child(1){
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 5;
+}
+.hijo2:nth-child(2){
+	background: red;
+	
+}
+.hijo2:nth-child(3){
+	
+}
+.hijo2:nth-child(4){
+	
+	background: red;
+}
+.hijo2:nth-child(5){
+	
+}
+.hijo2:nth-child(6){
+	
+}
+.hijo2:nth-child(7){
+	
+}

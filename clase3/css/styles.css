@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.flex-container{
+    width: 900px;
+    height: 500px;
+    background: pink;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* horizontal */
+    /* align-items: space-between; */ /* vertical */
+    align-content: flex-start;
+    align-items: stretch;/* cuando queremos editar el grupo */
+}
+.flex-item{
+    width: 100px;
+    height: 50px;
+    background: lightblue;
+    margin: 5px;
+}
+.flex-item:nth-child(5){
+    background: lightgreen;
+    order: -1;
+}
+.flex-item:nth-child(1){
+    background: lightcoral;
+    order: 2;
+}
+.flex-item:nth-child(2){
+    background: olive;
+    order: 0;
+}
+.flex-item:nth-child(4){
+    background: coral;
+    order: 0;
+}
+.flex-item:nth-child(3){
+    background: darkblue;
+    order: 1;
+}
