@@ -4,7 +4,7 @@
     border: 0%;
 }
 .encabezado{
-    height: 200px;
+    height    : 200px;
     background: black;
 }
 .encabezado__margenes{
@@ -127,12 +127,8 @@ article[class*="portafolio__proyecto"]:hover{
         grid-gap: 5% 4%;
     }
     /* medidas img */
-    .portafolio__imagen--nieve,.portafolio__imagen--grecia, .portafolio__imagen--fotografo,  .portafolio__imagen--doggie, .portafolio__imagen--fruits, .portafolio__imagen--sky, .portafolio__imagen--people, .portafolio__imagen--woman{
+    .portafolio__imagen--river, .portafolio__imagen--nieve,.portafolio__imagen--grecia, .portafolio__imagen--fotografo,  .portafolio__imagen--doggie, .portafolio__imagen--fruits, .portafolio__imagen--sky, .portafolio__imagen--people, .portafolio__imagen--woman{
         width: 100%;
-        height: 100%;
-    }
-    .portafolio__imagen--river{
-        width: 210%;
         height: 100%;
     }
     .portafolio__encabezado{
@@ -147,7 +143,7 @@ article[class*="portafolio__proyecto"]:hover{
     .portafolio__proyecto--nieve{grid-area: 3 / 1 / 3 / 1;}
     .portafolio__proyecto--fruits{grid-area: 4 / 1 / 4 / 1;}
     .portafolio__proyecto--sky{grid-area: 5 / 1 / 5 / 1;}
-    .portafolio__proyecto--river{grid-area: 6 / 1 / 6 / 2;}
+    .portafolio__proyecto--river{grid-area: 6 / 1 / 6 / 3;}
     .portafolio__proyecto--grecia{grid-area: 3 / 2 / 6 / 2;}
     .portafolio__proyecto--doggie{grid-area: 3 / 3 / 3 / 3;}
     .portafolio__proyecto--people{grid-area: 4 / 3 / 4 / 3;}
@@ -176,12 +172,8 @@ article[class*="portafolio__proyecto"]:hover{
         grid-gap: 5% 4%;
     }
     /* medidas img */
-    .portafolio__imagen--nieve,.portafolio__imagen--grecia, .portafolio__imagen--fotografo,  .portafolio__imagen--doggie, .portafolio__imagen--fruits, .portafolio__imagen--sky, .portafolio__imagen--people, .portafolio__imagen--woman{
+    .portafolio__imagen--river, .portafolio__imagen--nieve,.portafolio__imagen--grecia, .portafolio__imagen--fotografo,  .portafolio__imagen--doggie, .portafolio__imagen--fruits, .portafolio__imagen--sky, .portafolio__imagen--people, .portafolio__imagen--woman{
         width: 100%;
-        height: 100%;
-    }
-    .portafolio__imagen--river{
-        width: 210%;
         height: 100%;
     }
     .portafolio__encabezado{
@@ -196,7 +188,7 @@ article[class*="portafolio__proyecto"]:hover{
     .portafolio__proyecto--nieve{grid-area: 3 / 1 / 3 / 1;}
     .portafolio__proyecto--fruits{grid-area: 4 / 1 / 4 / 1;}
     .portafolio__proyecto--sky{grid-area: 5 / 1 / 5 / 1;}
-    .portafolio__proyecto--river{grid-area: 6 / 1 / 6 / 2;}
+    .portafolio__proyecto--river{grid-area: 6 / 1 / 6 / 3;}
     .portafolio__proyecto--grecia{grid-area: 3 / 2 / 6 / 2;}
     .portafolio__proyecto--doggie{grid-area: 3 / 3 / 3 / 3;}
     .portafolio__proyecto--people{grid-area: 4 / 3 / 4 / 3;}
@@ -224,12 +216,8 @@ article[class*="portafolio__proyecto"]:hover{
         grid-gap: 5% 4%;
     }
     /* medidas img */
-    .portafolio__imagen--nieve,.portafolio__imagen--grecia, .portafolio__imagen--fotografo,  .portafolio__imagen--doggie, .portafolio__imagen--fruits, .portafolio__imagen--sky, .portafolio__imagen--people, .portafolio__imagen--woman{
+    .portafolio__imagen--river, .portafolio__imagen--nieve,.portafolio__imagen--grecia, .portafolio__imagen--fotografo,  .portafolio__imagen--doggie, .portafolio__imagen--fruits, .portafolio__imagen--sky, .portafolio__imagen--people, .portafolio__imagen--woman{
         width: 100%;
-        height: 100%;
-    }
-    .portafolio__imagen--river{
-        width: 210%;
         height: 100%;
     }
     .portafolio__encabezado{
@@ -249,7 +237,7 @@ article[class*="portafolio__proyecto"]:hover{
     .portafolio__proyecto--people{grid-area: 4 / 3 / 4 / 3;}
     .portafolio__proyecto--woman{grid-area: 5 / 3 / 5 / 3;}
     .portafolio__proyecto--fotografo{grid-area: 6 / 3 / 6 / 3;}
-    .portafolio__proyecto--river{grid-area: 6 / 1 / 6 / 2;
+    .portafolio__proyecto--river{grid-area: 6 / 1 / 6 / 3;
     }
 
     .pie-de-pagina__texto{
